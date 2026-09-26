@@ -1,4 +1,4 @@
-## C‑index Calculation (Cause 1 as event, Cause 2 treated as censored)
+# C‑index Calculation (Cause 1 as event, Cause 2 treated as censored)
 
 | ID | Time | Status | Risk score |
 |----|------|--------|-----------|
@@ -65,7 +65,8 @@ The risk scores perfectly rank the cause‑1 event times in this dataset (every 
 
 
 
-## Wolbers C‑index (Cause 1 = event, Cause 2 = competing risk)
+# Wolbers C‑index (Cause 1 = event, Cause 2 = competing risk)
+### **consider like this. for event2, time = infinity** 
 | ID | Time | Status | Risk score |
 |----|------|--------|-----------|
 | 1 | 2 | cause 1 | 9 |
