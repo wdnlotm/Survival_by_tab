@@ -65,7 +65,7 @@ The risk scores perfectly rank the cause‑1 event times in this dataset (every 
 
 
 
-# Wolbers C‑index (Cause 1 = event, Cause 2 = competing risk)
+# Unweighted UNO c-index (Cause 1 = event, Cause 2 = competing risk)
 ### **consider like this. for event2, time = infinity** 
 | ID | Time | Status | Risk score |
 |----|------|--------|-----------|
